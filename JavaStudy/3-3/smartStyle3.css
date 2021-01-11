@@ -1,0 +1,58 @@
+/*ウィンドウ幅が最大479pxまでの場合に適用(スマホ用)*/
+@media screen and (max-width: 479px) {
+
+    .header {
+        width: 200px;
+        height: 200px;
+    }
+        .subh1 {
+            width: 60px;
+            height: 160px;
+            top: 20px;
+            left: 70px;
+        }
+            .subh2 {
+                top: 40px;
+                left: -10px;
+            }
+
+        .left-right {
+            height: 310px;
+        }
+
+            .left {
+                width: 200px;
+                height: 100px;
+            }
+
+            .right {
+                width: 200px;
+                height: 210px;
+                float: none;
+                clear: both;
+            }
+                .subright {
+                    width: 200px;
+                    height: 210px;
+                }
+                    .subr1 {
+                        width: 140px;
+                        top: 20px;
+                        left: 30px;
+                    }
+                    .subr2 {
+                        width: 140px;
+                        top: 80px;
+                        left: 30px;
+                    }
+                    .subr3 {
+                        width: 140px;
+                        bottom: 20px;
+                        left: 30px;
+                    }
+
+    .footer {
+        width: 200px;
+    }
+
+}

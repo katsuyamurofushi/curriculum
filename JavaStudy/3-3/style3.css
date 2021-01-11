@@ -1,0 +1,112 @@
+/* 他の要素が回り込む(ビハインド側)のを防ぐ */
+.clearfix::after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+/* 共通処理：wrapperクラス */
+.wrapper {
+    width: 479px;
+    margin: 0 auto; /* 中央寄せ */
+}
+
+/* header */
+.header {
+    height: 100px;
+    width: 400px;
+    color: #ffffff;
+    background-color: #141f40;
+    position: relative;
+} /* End of header */
+    .subh1 {
+        width: 160px;
+        height: 60px;
+        border: solid 10px #ffffff;
+        background-color: #a9004b;
+        position: absolute;
+        top: 20px;
+        right: 20px;
+    }
+        .subh2 {
+            width: 60px;
+            height: 60px;
+            border: solid 10px #ffffff;
+            background-color: #a9004b;
+            position: absolute;
+            top: -10px;
+            right: 40px;
+        }
+
+    /* left-right */
+    .left-right {
+        /*float: left;*/
+        height: 250px;
+    } 
+        /* left */
+        .left {
+            float: left;
+            width: 150px;
+            height: 100%;
+            color: #ffffff;
+            background-color: #80bfa8
+        } /* End of left */
+        /* right */
+        .right {
+            float: left;
+            width: 250px;
+            height: 100%;
+            color: #ffffff;
+            background-color: #8c2727;
+            position: relative;
+        } /* End of right */
+            .subright {
+                width: 250px;
+                height: 100%;
+                position: absolute;
+                top: 0;
+                left: 0;
+            }
+                .subr1 {
+                    width: 150px;
+                    height: 50px;
+                    border: solid 5px #ffffff;
+                    background-color: #ff863f;
+                    position: absolute;
+                    top: 40px;
+                    left: 40px;
+                }
+                .subr2 {
+                    width: 150px;
+                    height: 50px;
+                    border: solid 5px #ffffff;
+                    background-color: #ff863f;
+                    position: absolute;
+                    top: 100px;
+                    left: 40px;
+                }
+                .subr3 {
+                    width: 150px;
+                    height: 50px;
+                    border: solid 5px #ffffff;
+                    background-color: #ff863f;
+                    position: absolute;
+                    bottom: 40px;
+                    left: 40px;
+                }
+    /* End of left-right */
+
+/* footer */
+.footer {
+    height: 100px;
+    width: 400px;
+    color: #ffffff;
+    background-color: #d98d30;
+} /* End of footer */
+
+/* reset.css */
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
