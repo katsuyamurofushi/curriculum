@@ -1,0 +1,67 @@
+情報: Serverのバージョン名:     Apache Tomcat/9.0.39 [火 3月 09 15:57:31 JST 2021]
+情報: Server ビルド:            Oct 6 2020 14:11:46 UTC [火 3月 09 15:57:31 JST 2021]
+情報: サーバーのバージョン番号: 9.0.39.0 [火 3月 09 15:57:31 JST 2021]
+情報: OS 名:                    Mac OS X [火 3月 09 15:57:31 JST 2021]
+情報: OS バージョン:            10.15.6 [火 3月 09 15:57:31 JST 2021]
+情報: アーキテクチャ:           x86_64 [火 3月 09 15:57:31 JST 2021]
+情報: Java Home:                /Applications/Eclipse_2020-12.app/Contents/java/11/Home [火 3月 09 15:57:31 JST 2021]
+情報: JVM バージョン:           11.0.9+11 [火 3月 09 15:57:31 JST 2021]
+情報: JVM ベンダ:               AdoptOpenJDK [火 3月 09 15:57:31 JST 2021]
+情報: CATALINA_BASE:            /Users/murofushikatsuya/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.wst.server.core/tmp1 [火 3月 09 15:57:31 JST 2021]
+情報: CATALINA_HOME:            /Applications/Eclipse_2020-12.app/Contents/tomcat/9 [火 3月 09 15:57:31 JST 2021]
+情報: コマンドライン引数:       -Dcatalina.base=/Users/murofushikatsuya/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.wst.server.core/tmp1 [火 3月 09 15:57:31 JST 2021]
+情報: コマンドライン引数:       -Dcatalina.home=/Applications/Eclipse_2020-12.app/Contents/tomcat/9 [火 3月 09 15:57:31 JST 2021]
+情報: コマンドライン引数:       -Dwtp.deploy=/Users/murofushikatsuya/LetsEngineer/curriculum/JavaStudy/.metadata/.plugins/org.eclipse.wst.server.core/tmp1/wtpwebapps [火 3月 09 15:57:31 JST 2021]
+情報: コマンドライン引数:       -Dfile.encoding=UTF-8 [火 3月 09 15:57:31 JST 2021]
+情報: 商用環境に最適な性能を発揮する APR ベースの Tomcat ネイティブライブラリが java.library.path [/Users/murofushikatsuya/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.] に存在しません。 [火 3月 09 15:57:31 JST 2021]
+情報: プロトコルハンドラ ["http-nio-8080"] を初期化します。 [火 3月 09 15:57:32 JST 2021]
+情報: サーバーの初期化 [1157]ms [火 3月 09 15:57:32 JST 2021]
+情報: サービス [Catalina] を起動します [火 3月 09 15:57:32 JST 2021]
+情報: サーブレットエンジンの起動：[Apache Tomcat/9.0.39] [火 3月 09 15:57:32 JST 2021]
+情報: 少なくとも1つのJARが、まだTLDを含んでいないTLDについてスキャンされました。 スキャンしたが、そこにTLDが見つからなかったJARの完全なリストについては、このロガーのデバッグログを有効にしてください。 スキャン中に不要なJARをスキップすると、起動時間とJSPのコンパイル時間が改善されます。 [火 3月 09 15:57:32 JST 2021]
+情報: プロトコルハンドラー ["http-nio-8080"] を開始しました。 [火 3月 09 15:57:32 JST 2021]
+情報: サーバーの起動 [701]ms [火 3月 09 15:57:32 JST 2021]
+[MEMORY:39609344][2021/03/09 03:57:33.662] [org.apache.jsp.login_jsp] [_jspService] [161] セッションなし
+[MEMORY:39609344][2021/03/09 03:57:41.777] [skillcheck.controller.BaseServlet] [<init>] [56] START
+[MEMORY:39609344][2021/03/09 03:57:41.779] [skillcheck.controller.BaseServlet] [<init>] [60] END
+[MEMORY:39609344][2021/03/09 03:57:41.781] [skillcheck.controller.EmployeeManagementController] [doPost] [100] START
+[MEMORY:39609344][2021/03/09 03:57:41.782] [skillcheck.controller.EmployeeManagementController] [getRequestType] [198] START
+[MEMORY:39609344][2021/03/09 03:57:41.783] [skillcheck.controller.EmployeeManagementController] [getRequestType] [201] requestTypeName = login
+[MEMORY:39609344][2021/03/09 03:57:41.784] [skillcheck.controller.EmployeeManagementController] [getRequestType] [220] this.responseBean = skillcheck.bean.ResponseBean@2d1d3f3c
+[MEMORY:39609344][2021/03/09 03:57:41.784] [skillcheck.controller.EmployeeManagementController] [getRequestType] [230] END
+[MEMORY:39609344][2021/03/09 03:57:41.784] [skillcheck.controller.EmployeeManagementController] [doPost] [128] RequestType = LOGIN
+[MEMORY:39609344][2021/03/09 03:57:41.785] [skillcheck.service.BaseService] [<init>] [40] START
+[MEMORY:39609344][2021/03/09 03:57:41.785] [skillcheck.service.BaseService] [<init>] [47] END
+[MEMORY:39609344][2021/03/09 03:57:41.786] [skillcheck.controller.EmployeeManagementController] [lambda$1] [145] reqEmpId = 00419
+[MEMORY:39609344][2021/03/09 03:57:41.787] [skillcheck.controller.EmployeeManagementController] [doPost] [150] --- ログイン ---
+[MEMORY:39609344][2021/03/09 03:57:41.787] [skillcheck.controller.BaseServlet] [validateLogin] [137] START
+[MEMORY:39609344][2021/03/09 03:57:41.789] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [51] START
+[MEMORY:39609344][2021/03/09 03:57:41.789] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [68] START
+[MEMORY:39609344][2021/03/09 03:57:41.789] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [69] ExecuteCase = FIND_BY_EMPID
+[MEMORY:39609344][2021/03/09 03:57:41.789] [skillcheck.service.BaseService] [executeGetConnection] [54] START
+[MEMORY:45374464][2021/03/09 03:57:42.006] [skillcheck.service.BaseService] [executeGetConnection] [80] END
+[MEMORY:45374464][2021/03/09 03:57:42.006] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [169] START
+[MEMORY:45374464][2021/03/09 03:57:42.006] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [203] pEmployeeBeanList[0].empId = 00419
+[MEMORY:45900800][2021/03/09 03:57:42.040] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [228] SQL: SELECT EmpId, Password, Name, Mail, ProgramingLanguage, Comment FROM Employee WHERE empId = '00419' AND deleteFlg = '0'
+[MEMORY:45900800][2021/03/09 03:57:42.040] [skillcheck.service.EmployeeManagementService] [executeSelectQuery] [247] END
+[MEMORY:45900800][2021/03/09 03:57:42.042] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [86] meta = org.postgresql.jdbc.PgResultSetMetaData@4f449cc3
+[MEMORY:45900800][2021/03/09 03:57:42.042] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [93] empid: 00419
+[MEMORY:45900800][2021/03/09 03:57:42.042] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [93] password: 88d8580a7ea163777a19f779d77e4339d68c1c24f39f3fd90a4b1e64ff7620b8
+[MEMORY:45900800][2021/03/09 03:57:42.042] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [93] name: 室伏克哉
+[MEMORY:45900800][2021/03/09 03:57:42.042] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [93] mail: k-murofusi@y-i-group.co.jp
+[MEMORY:45900800][2021/03/09 03:57:42.043] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [93] programinglanguage: 学習言語はJava
+[MEMORY:45900800][2021/03/09 03:57:42.043] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [124] reqStatus  = 0
+[MEMORY:45900800][2021/03/09 03:57:42.043] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [125] reqMessage = 
+[MEMORY:45900800][2021/03/09 03:57:42.043] [skillcheck.service.BaseService] [executeCloseSQL] [118] START
+[MEMORY:45900800][2021/03/09 03:57:42.044] [skillcheck.service.BaseService] [executeCloseSQL] [129] END
+[MEMORY:46423040][2021/03/09 03:57:42.044] [skillcheck.service.EmployeeManagementService] [executeDBAccess] [155] END
+[MEMORY:46423040][2021/03/09 03:57:42.045] [skillcheck.service.EmployeeManagementService] [getEmployeeData] [55] END
+■ 例外発生: [skillcheck.controller.BaseServlet] [validateLogin] [158]
+[MEMORY:46423040][2021/03/09 03:57:42.045] [skillcheck.controller.BaseServlet] [validateLogin] [191] isLoginError = true
+[MEMORY:46423040][2021/03/09 03:57:42.045] [skillcheck.controller.BaseServlet] [validateLogin] [193] END
+[MEMORY:46423040][2021/03/09 03:57:42.045] [skillcheck.controller.EmployeeManagementController] [doPost] [165] reqStatus  = 2
+[MEMORY:46423040][2021/03/09 03:57:42.046] [skillcheck.controller.EmployeeManagementController] [doPost] [166] reqMessage = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
+[MEMORY:46423040][2021/03/09 03:57:42.046] [skillcheck.controller.EmployeeManagementController] [doPost] [174] 遷移先 = null
+[MEMORY:46423040][2021/03/09 03:57:42.046] [skillcheck.controller.EmployeeManagementController] [doPost] [187] END
+[MEMORY:46951440][2021/03/09 03:57:42.050] [org.apache.jsp.login_jsp] [_jspService] [167] セッションあり
+[MEMORY:46951440][2021/03/09 03:57:42.050] [org.apache.jsp.login_jsp] [_jspService] [188] message = ヌルポです！&#010;NULLの可能性がある変数が存在します！&#010;メソッドを呼び出している変数の値を確認しましょう！
