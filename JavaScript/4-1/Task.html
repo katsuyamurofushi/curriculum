@@ -9,10 +9,11 @@
 </head>
 <body>
     <div id="app">
+        <p>残タスク：{{ Counttask }}/{{ Counttotal }}</p>
         <input type="text" v-model="addText" placeholder="ToDoを入力して">
         <button v-on:click="addToDo()">追加</button>
         <button v-on:click="deleteBtn()">削除</button><hr>
-        <p>{{message}}</p>
+        <p v-if="display()">現在タスクはありません</p>
         <ul v-for="todo in list">
             <li>
                 <span v-bind:class="{ done: todo.isChecked }">
