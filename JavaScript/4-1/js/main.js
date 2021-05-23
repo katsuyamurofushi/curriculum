@@ -50,7 +50,11 @@ var app = new Vue({
             return this.totalTask;
         },
         Counttask: function() {
-            return this.totalTask;
+            if (this.list.length === 0) {
+                return this.task;
+            }//else if (todo.isChecked === true) {
+                //this.task--;
+            //}
             //リスト要素数に比例
             //リスト要素のcheckedの回答に変動
         }
