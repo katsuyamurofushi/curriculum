@@ -3,8 +3,9 @@ var app = new Vue({
     data: {
         list: [],
         addText: '',
-        task: 0,
         totalTask: 0,
+        keyword: '',
+        searchList: []
     },
     //watchでlistの変更を監視
     watch: {
@@ -50,13 +51,28 @@ var app = new Vue({
             return this.totalTask;
         },
         Counttask: function() {
-            if (this.list.length === 0) {
-                return this.task;
-            }//else if (todo.isChecked === true) {
-                //this.task--;
-            //}
-            //リスト要素数に比例
-            //リスト要素のcheckedの回答に変動
+            //タスクが入っている配列をコピーする
+            notCheckedList = this.list.concat()
+
+            //this.listの中身を全て確認するためにforEach文を仕様する
+            this.list.forEach(todo => {
+                if (todo.isChecked) {
+                    //isChecked が true のものは notCheckedList から抜く
+                    notCheckedList.pop(todo)
+                }
+            });
+            //notCheckedList に残っているのは check されていないタスク
+            //その長さを返せば正しく表示できる
+            return notCheckedList.length;
+        },
+        SearchTask: function() {
+            this.searchList = [];
+            this.list.forEach(todo => {
+                if (todo.text.indexOf(this.keyword) != -1) {
+                    this.searchList.unshift(todo)
+                }
+            });
+            return this.searchList;
         }
     }
 });
